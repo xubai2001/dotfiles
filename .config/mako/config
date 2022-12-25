@@ -1,0 +1,23 @@
+font=sans 14
+background-color=#282a36dd
+text-color=#ffffff
+border-color=#282a36
+border-radius=4
+height=600
+# avoid covering firefox's tabs and buttons
+outer-margin=20,0,0,0
+layer=overlay
+default-timeout=3000
+
+[urgency=high]
+text-color=#ff5c57ff
+border-color=#ff5c57bb
+
+[mode=locked]
+layer=top
+
+[mode=dnd]
+invisible=1
+
+# vim: se ft=dosini:
+
